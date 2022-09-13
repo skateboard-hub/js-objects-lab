@@ -27,3 +27,6 @@ const aCar=
 console.log('It is a ' + aCar.colour.shade+' car, ' + aCar.mileade + ' mileage, with ' + aCar.colour.texture + ' interior.');
 console.log("First owner: " +aCar.previous_owners[0].name +' - ' +aCar.previous_owners[0].address);
 console.log("First owner: " +aCar.previous_owners[1].name +' - ' +aCar.previous_owners[1].address);
+for (let i = 0 ; i < aCar.previous_owners.length ; i += 1) {
+    console.log("First owner: " +aCar.previous_owners[i].name +' - ' +aCar.previous_owners[i].address);
+}
